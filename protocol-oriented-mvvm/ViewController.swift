@@ -43,8 +43,12 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath) as! SwitchWithTextTableViewCell
+//        
+//        cell.configure(withDelegate: MinionModeViewModel())
+       
+        let viewModel = MinionModeViewModel()
         
-        cell.configure(withDelegate: MinionModeViewModel())
+        cell.configure(withDataSource: viewModel, delegate: viewModel)
         return cell;
     }
 }
