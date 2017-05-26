@@ -14,6 +14,8 @@
 		ECF8D8FA1ED817A900E5D6E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF8D8F81ED817A900E5D6E5 /* LaunchScreen.storyboard */; };
 		ECF8D9051ED817AA00E5D6E5 /* protocol_oriented_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8D9041ED817AA00E5D6E5 /* protocol_oriented_mvvmTests.swift */; };
 		ECF8D9101ED817AA00E5D6E5 /* protocol_oriented_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8D90F1ED817AA00E5D6E5 /* protocol_oriented_mvvmUITests.swift */; };
+		ECF8D91E1ED8196100E5D6E5 /* SwitchWithTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8D91D1ED8196100E5D6E5 /* SwitchWithTextTableViewCell.swift */; };
+		ECF8D9201ED81A7C00E5D6E5 /* MinionModeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8D91F1ED81A7C00E5D6E5 /* MinionModeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		ECF8D90B1ED817AA00E5D6E5 /* protocol-oriented-mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "protocol-oriented-mvvmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF8D90F1ED817AA00E5D6E5 /* protocol_oriented_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol_oriented_mvvmUITests.swift; sourceTree = "<group>"; };
 		ECF8D9111ED817AA00E5D6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF8D91D1ED8196100E5D6E5 /* SwitchWithTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchWithTextTableViewCell.swift; sourceTree = "<group>"; };
+		ECF8D91F1ED81A7C00E5D6E5 /* MinionModeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionModeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				ECF8D8EF1ED817A900E5D6E5 /* AppDelegate.swift */,
 				ECF8D8F11ED817A900E5D6E5 /* ViewController.swift */,
+				ECF8D91D1ED8196100E5D6E5 /* SwitchWithTextTableViewCell.swift */,
+				ECF8D91F1ED81A7C00E5D6E5 /* MinionModeViewModel.swift */,
 				ECF8D8F31ED817A900E5D6E5 /* Main.storyboard */,
 				ECF8D8F61ED817A900E5D6E5 /* Assets.xcassets */,
 				ECF8D8F81ED817A900E5D6E5 /* LaunchScreen.storyboard */,
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF8D8F21ED817A900E5D6E5 /* ViewController.swift in Sources */,
+				ECF8D91E1ED8196100E5D6E5 /* SwitchWithTextTableViewCell.swift in Sources */,
 				ECF8D8F01ED817A900E5D6E5 /* AppDelegate.swift in Sources */,
+				ECF8D9201ED81A7C00E5D6E5 /* MinionModeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
